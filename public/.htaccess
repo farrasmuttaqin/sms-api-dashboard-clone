@@ -1,0 +1,37 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+<IfModule mod_mime.c>
+    AddType image/svg+xml svg svgz
+</IfModule>
+
+<IfModule mod_deflate.c>
+        <IfModule mod_filter.c>
+                # these are known to be safe with MSIE 6
+                AddOutputFilterByType DEFLATE text/html text/plain text/xml application/json text/css
+
+                # everything else may cause problems with MSIE 6
+                AddOutputFilterByType DEFLATE image/svg+xml
+                AddOutputFilterByType DEFLATE application/x-javascript application/javascript application/ecmascript
+                AddOutputFilterByType DEFLATE application/rss+xml
+                AddOutputFilterByType DEFLATE application/xml
+        </IfModule>
+</IfModule>

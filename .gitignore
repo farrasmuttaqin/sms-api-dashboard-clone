@@ -1,0 +1,17 @@
+/config/debugbar.php
+/coverage
+/node_modules
+/public/hot
+/public/storage
+/storage/debugbar
+/storage/reports/*
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+/nbproject
