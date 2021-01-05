@@ -1,6 +1,6 @@
 # SMS API DASHBOARD
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/farrasmuttaqin/sms-api-dashboard-clone">  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/farrasmuttaqin/sms-api-dashboard-clone">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/farrasmuttaqin/sms-api-dashboard-clone">  <img alt="APM badge" src="https://img.shields.io/badge/license-MIT-green">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/farrasmuttaqin/sms-api-dashboard-clone">  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/farrasmuttaqin/sms-api-dashboard-clone">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/farrasmuttaqin/sms-api-dashboard-clone">  <img alt="APM badge" src="https://img.shields.io/badge/license-Apache-blue">
 
 P.S. This is just a clone version of SMS API DASHBOARD 
 
