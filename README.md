@@ -1,4 +1,7 @@
 # SMS API DASHBOARD
+
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/farrasmuttaqin/sms-api-dashboard-clone"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/farrasmuttaqin/sms-api-dashboard-clone"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/farrasmuttaqin/sms-api-dashboard-clone"><a href="https://github.com/farrasmuttaqin/sms-api-dashboard-clone/network">
+
 P.S. This is just a clone version of SMS API DASHBOARD 
 
 ## Getting Started
