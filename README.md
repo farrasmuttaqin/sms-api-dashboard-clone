@@ -20,7 +20,7 @@ composer install
 ## Showcases
 
 ![Login Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-dashboard-clone/Task-2-First_time_push_sms_api_dashboard/screenshoot/login.png)
-<div align="center">Figure 1: Login Page</div>
+<p align="center">Figure 1: Login Page</p>
 
 Login page used to sign in into the system.
 
