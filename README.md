@@ -20,4 +20,4 @@ composer install
 ## Showcases
 
 ![Login Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-dashboard-clone/Task-2-First_time_push_sms_api_dashboard/screenshoot/login.png)
-<p style="text-align: center;">Login Page</p>
+<div style="text-align: center;"> <p style="text-align: center;">Login Page</p> </div>
